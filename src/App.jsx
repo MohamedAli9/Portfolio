@@ -1,5 +1,12 @@
+import NavBar from "./NavBar";
+import HeroSection from "./HeroSection";
 const App = () => {
-  return <div className="text-6xl text-orange-300">Portfolio Project</div>;
+  return (
+    <div className="bg-amber-50 text-ambar-900 min-h-screen">
+      <NavBar />
+      <HeroSection />
+    </div>
+  );
 };
 
 export default App;
